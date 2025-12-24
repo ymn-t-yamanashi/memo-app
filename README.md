@@ -239,5 +239,13 @@ cd backend
 go run main.go
 
 cd backend
-go run main.go
+npm start
+```
+
+# Goでホットリード
+
+```
+go install github.com/air-verse/air@latest
+air init 
+air 
 ```
